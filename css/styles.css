@@ -8,7 +8,7 @@ h2 {
 
 .logo-header {
     background-color: rgb(4, 76, 4);
-    padding-bottom: 1em;;
+    padding-bottom: 1em;
 }
 
 .banner-box {
@@ -23,7 +23,7 @@ h2 {
         rgba(0, 0, 0, 0.5)
       ),
     url("/images/banner-1.jpg");
-    height: 15rem;
+    height: 8rem;
     margin: auto;
     padding: auto;
 }
@@ -39,6 +39,11 @@ h2 {
 .banner-subtitle {
     font-size: 2.5em;
     text-shadow: 2px 2px 1px #0d2500;
+}
+
+.title {
+    margin-top: 0.25em;
+    color:rgb(99, 131, 99)
 }
 
 #logo {
@@ -78,24 +83,44 @@ nav li:hover {
 
 section {
     display: flex;
+    margin: 2em;
 }
 
-article {
-    flex: 1;
+.card {
+    width: 20rem !important;
+}
+.card-img-top {
+    min-height: 15em;
+    max-height: 15em;
 }
 
-footer {
+.btn-primary, .btn-primary:active, .btn-primary:visited {
+    border: 0 !important;
+    background-color: rgb(4, 107, 4) !important;
+}
+
+.btn-primary:hover {
+    background-color: rgb(91, 134, 75) !important;
+}
+
+
+.footer-parent {
     display: flex;
     background-color: rgb(156, 207, 158);
 }
 
-footer div {
+.footer-child {
     flex: 1;
 }
 
 footer img {
-    height: 2em;
-    width: 2em;
+    height: 1.5em;
+    width: 1.5em;
+}
+
+.copyright-text {
+    text-align: right;
+    font-size: 0.75em;
 }
 
 #foot-img-div {
