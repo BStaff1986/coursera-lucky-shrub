@@ -11,6 +11,36 @@ h2 {
     padding-bottom: 1em;;
 }
 
+.banner-box {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-position: center;
+    background-size: cover;
+    background-image: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+    url("/images/banner-1.jpg");
+    height: 15rem;
+    margin: auto;
+    padding: auto;
+}
+
+.banner-text {
+    color: white;
+    margin: auto;
+}
+.banner-title {
+    font-size: 4em;
+    text-shadow: 4px 4px 4px #0d2500;
+}
+.banner-subtitle {
+    font-size: 2.5em;
+    text-shadow: 2px 2px 1px #0d2500;
+}
+
 #logo {
     display: block;
     margin-left: auto;
