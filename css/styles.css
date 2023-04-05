@@ -22,7 +22,7 @@ h2 {
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
       ),
-    url("/images/banner-1.jpg");
+    url("https://raw.githubusercontent.com/BStaff1986/coursera-lucky-shrub/main/images/banner-1.jpg");
     height: 8rem;
     margin: auto;
     padding: auto;
